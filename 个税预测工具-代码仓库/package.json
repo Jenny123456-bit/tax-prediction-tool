@@ -1,0 +1,17 @@
+{
+  "name": "tax-forecast",
+  "version": "1.0.0",
+  "private": true,
+  "description": "个税预测 · 中国个人所得税测算与扣除优化工具（纯前端静态站点）",
+  "keywords": ["个税", "个人所得税", "年终奖", "专项附加扣除", "tax", "china"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/engine.test.js tests/acceptance.test.js tests/smoke.test.js",
+    "test:engine": "node --test tests/engine.test.js",
+    "serve": "node scripts/serve.js",
+    "serve:8888": "node scripts/serve.js 8888"
+  }
+}
